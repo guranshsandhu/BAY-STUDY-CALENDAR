@@ -89,6 +89,9 @@ This is a Week 8 scaffold, not a functioning scheduling system. The UI shows
 inputs and scenarios only; inputs are not yet used for recommendations.
 Review and refine the model, weights and implementation as the project develops.
 
+##AI assistance: 
+I used ChatGPT to help prepare the initial Week 8 project structure, starter code, and documentation. Bayesian inference and calendar integration are not yet implemented. I will review, test, and develop this foundation as the project progresses.
+
 ## Credential handling
 credentials.json, token.json, .env and .venv are ignored by Git.
 Use a dedicated test calendar; keep credentials out of uploads.
