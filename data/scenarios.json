@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Struggling student",
+    "evidence": {
+      "Concept1Difficulty": "hard",
+      "Concept2Difficulty": "hard",
+      "Concept3Difficulty": "hard",
+      "Mastery": "low",
+      "CurrentStress": "low",
+      "DaysRemaining": "near"
+    },
+    "recommendation": "To be computed after CPTs and inference are implemented"
+  },
+  {
+    "name": "Advanced student",
+    "evidence": {
+      "Concept1Difficulty": "easy",
+      "Concept2Difficulty": "easy",
+      "Concept3Difficulty": "easy",
+      "Mastery": "high",
+      "CurrentStress": "low",
+      "DaysRemaining": "far"
+    },
+    "recommendation": "To be computed after CPTs and inference are implemented"
+  },
+  {
+    "name": "Highly stressed student",
+    "evidence": {
+      "Concept1Difficulty": "easy",
+      "Concept2Difficulty": "hard",
+      "Concept3Difficulty": "easy",
+      "Mastery": "high",
+      "CurrentStress": "high",
+      "DaysRemaining": "far"
+    },
+    "recommendation": "To be computed after CPTs and inference are implemented"
+  }
+]
