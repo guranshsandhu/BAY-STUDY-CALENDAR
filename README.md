@@ -45,3 +45,51 @@ Week 8: Initial project setup. Implementation is not yet complete.
 ## Planned Demonstration
 Compare struggling and advanced students, along with a student
 experiencing high stress, to demonstrate different scheduling decisions.
+
+## Week 8 implementation and setup
+
+Project structure, nine-variable model specification, action definitions,
+three sample scenarios, proposed utility, setup checker and interface preview
+are implemented. CPTs, Bayesian inference, expected utility action selection,
+OAuth and calendar writes are not implemented. No prediction results are claimed.
+
+## Setup on Windows (PowerShell)
+```powershell
+py -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe setup_check.py
+.\.venv\Scripts\python.exe -m streamlit run app.py
+```
+Activation is optional; these commands avoid PowerShell activation-policy issues.
+Use Python 3.11 or 3.12 for a straightforward dependency setup.
+
+## macOS/Linux
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python setup_check.py
+.venv/bin/python -m streamlit run app.py
+```
+The setup check uses only Python's standard library. The interface needs Streamlit.
+
+## Files
+- src/bayes_model.py: proposed variables/edges and explicit model placeholder.
+- src/planner.py: three actions, date helper and proposed utility.
+- src/calendar_client.py: explicit Calendar integration placeholder.
+- app.py: Week 8 input/interface preview.
+- data/scenarios.json: struggling, advanced and highly stressed scenarios.
+- docs/model-plan.md: inference task, action semantics and expected utility design.
+- docs/calendar-setup.md: Google account configuration steps.
+- docs/timeline.md: Weeks 8-14 milestones.
+- setup_check.py: verifies starter structure and valid scenario states.
+- requirements.txt: dependency ranges; exact versions can be locked after local installation.
+
+## Known limitations
+This is a Week 8 scaffold, not a functioning scheduling system. The UI shows
+inputs and scenarios only; inputs are not yet used for recommendations.
+Generated code and documentation were prepared with ChatGPT assistance.
+Review and refine the model, weights and implementation as the project develops.
+
+## Credential handling
+credentials.json, token.json, .env and .venv are ignored by Git.
+Use a dedicated test calendar; keep credentials out of uploads.
