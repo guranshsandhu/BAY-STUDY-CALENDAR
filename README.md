@@ -87,7 +87,6 @@ The setup check uses only Python's standard library. The interface needs Streaml
 ## Known limitations
 This is a Week 8 scaffold, not a functioning scheduling system. The UI shows
 inputs and scenarios only; inputs are not yet used for recommendations.
-Generated code and documentation were prepared with ChatGPT assistance.
 Review and refine the model, weights and implementation as the project develops.
 
 ## Credential handling
